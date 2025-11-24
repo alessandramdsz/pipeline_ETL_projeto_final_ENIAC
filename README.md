@@ -1,6 +1,4 @@
-# 🎬 Projeto final de Bootcamp BI: Netflix Data Pipeline (ETL)
-
-### Nome do projeto: Uma análise do perfil dos conteúdos da renomada Netflix  
+# 🎬 Projeto final de Bootcamp BI: Uma análise do perfil dos conteúdos da renomada Netflix - Data Pipeline (ETL)
 
 [![Status](https://img.shields.io/badge/Status-Completo-green.svg)]()
 
