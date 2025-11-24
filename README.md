@@ -120,7 +120,7 @@ O dashboard no Power BI permite uma visualização dinâmica e clara dos resulta
 
 ## 1. Clonar o Repositório
 
-```bash
+bash
 git clone https://github.com/seu-usuario/pipeline_ETL_projeto_final_ENIAC.git
 cd pipeline_ETL_projeto_final_ENIAC
 
