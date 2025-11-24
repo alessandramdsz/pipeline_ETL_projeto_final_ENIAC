@@ -11,7 +11,7 @@ Este projeto representa o trabalho final do Bootcamp de Business Intelligence, f
 
 ---
 
-### Sobre o projeto
+### **Sobre o projeto**
 
 O objetivo principal foi transformar dados brutos da Netflix em **insights estratégicos** sobre o perfil de conteúdo e o crescimento anual de lançamentos da plataforma. O resultado final é um dashboard analítico no **Power BI**, embasado em dados limpos e estruturados.
 
