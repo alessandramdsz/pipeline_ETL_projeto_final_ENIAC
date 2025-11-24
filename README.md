@@ -3,11 +3,9 @@
 ### Nome do projeto: Uma análise do perfil dos conteúdos da renomada Netflix  
 
 [![Status](https://img.shields.io/badge/Status-Completo-green.svg)]()
-[![Tecnologias](https://img.shields.io/badge/Linguagem-Python-blue.svg)]()
-
 
 > [!WARNING]
-> ⚠️ **Antes de iniciar a execução, você precisa baixas os arquivos que constam nesse repositório, junto ao read.me**
+> ⚠️ **Antes de iniciar a execução, você precisa baixar os arquivos que constam nesse repositório, junto ao read.me**
 
 ### 🚀 `pipeline_ETL_projeto_final_ENIAC`
 
