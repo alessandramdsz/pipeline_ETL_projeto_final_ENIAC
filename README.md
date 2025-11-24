@@ -1,5 +1,7 @@
 # 🎬 Projeto final de Bootcamp BI: Netflix Data Pipeline (ETL)
 
+### Nome do projeto: Uma análise do perfil dos conteúdos da renomada Netflix  
+
 [![Status](https://img.shields.io/badge/Status-Completo-green.svg)]()
 [![Tecnologias](https://img.shields.io/badge/Linguagem-Python-blue.svg)]()
 
@@ -17,11 +19,14 @@ Este projeto representa o trabalho final do Bootcamp de Business Intelligence, f
 
 O objetivo principal foi transformar dados brutos da Netflix em **insights estratégicos** sobre o perfil de conteúdo e o crescimento anual de lançamentos da plataforma. O resultado final é um dashboard analítico no **Power BI**, embasado em dados limpos e estruturados.
 
+### **Problema central**
+Qual é o perfil de conteúdo que a Netflix mais prioriza e como esse conteúdo se relaciona com o volume de títulos lançados anualmente, pensando em tendências de mercado e possibilidades de investimento?
+
 #### **Objetivos da análise**
 
 * Perfil de conteúdo da plataforma (Filmes vs. Séries).
-* **Crescimento anual de lançamentos** (2016 a 2021).
-* Tendências de **gêneros**, tipos e países de origem.
+* Crescimento anual de lançamentos (2016 a 2021).
+* Tendências de gêneros, tipos e países de origem.
 * Comportamento do catálogo e identificação de nichos.
 
 #### **Relevância**
