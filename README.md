@@ -118,12 +118,13 @@ O dashboard no Power BI permite uma visualização dinâmica e clara dos resulta
 
 ### 🛠️ Como executar este projeto
 
-## 1. Clonar o Repositório
+## 1. Clonar o repositório
 
-bash
-git clone https://github.com/seu-usuario/pipeline_ETL_projeto_final_ENIAC.git
+Execute os comandos para baixar o projeto e acessar o diretório:
+```bash
+git clone [https://github.com/seu-usuario/pipeline_ETL_projeto_final_ENIAC.git](https://github.com/seu-usuario/pipeline_ETL_projeto_final_ENIAC.git)
 cd pipeline_ETL_projeto_final_ENIAC
-
+```
 ## 2. Preparar o ambiente
 
 Certifique-se de ter instalado:
@@ -135,13 +136,16 @@ Certifique-se de ter instalado:
 
 ## 3. Instalar dependências
 
-Caso utilize localmente, execute:pip install -r requirements.txt
+Caso utilize localmente, execute:
+pip install -r requirements.txt
+
 Se não existir o arquivo, você pode instalar manualmente: pip install pandas numpy matplotlib sqlite3
 
 ## 4. Executar o Notebook de ETL
 etl/notebook_ETL.ipynb
 
 Você pode rodá-lo em:
+
 ## Google Colab (recomendado)
 1. Acesse o Colab
 2. Faça upload do notebook
@@ -190,5 +194,5 @@ Resumo do fluxo:
 Este projeto é de código aberto e está sob a licença MIT.
 
 📧 Contato
-Alessandra Machado - @alessandramdsz
-Link do projeto: [https://github.com/alessandramdsz/pipeline_ETL_projeto_final_ENIAC]
+- Alessandra Machado - @alessandramdsz
+- Link do projeto: [https://github.com/alessandramdsz/pipeline_ETL_projeto_final_ENIAC]
