@@ -1,123 +1,129 @@
-# pipeline_ETL_projeto_final_ENIAC
-Projeto final de Bootcamp de Bussiness Inteligence
-# Sobre o projeto
+# 🎬 Projeto final de Bootcamp BI: Netflix Data Pipeline (ETL)
 
-Visão Detalhada do Perfil de Conteúdo e do Crescimento Anual de Lançamentos da Netflix
-Projeto desenvolvido para o Projeto Final da Turma ENIAC pelas integrantes:
+[![Status](https://img.shields.io/badge/Status-Completo-green.svg)]()
+[![Tecnologias](https://img.shields.io/badge/Linguagem-Python-blue.svg)]()
 
-Alessandra Machado • Aline de Oliveira • Caroline Cruz • Clara Maria • Dayane Lurdes • Elaine Castro • Maria Elacide • Tandara Jesus
 
-# Objetivo do Projeto
+> [!WARNING]
+> ⚠️ **Antes de iniciar a execução, você precisa baixas os arquivos que constam nesse repositório, junto ao read.me**
 
-Construir um pipeline ETL completo (Extração, Transformação e Carregamento) utilizando dados da Netflix, com o propósito de gerar análises sobre:
-Perfil de conteúdo da plataforma
-* Crescimento anual de lançamentos
-* Tendências de gêneros, tipos e países
-* Comportamento do catálogo de 2016 a 2021
-Transformamos dados brutos em insights claros, estruturados e visualizados em dashboard no Power BI.
+### 🚀 `pipeline_ETL_projeto_final_ENIAC`
 
-# Relevância do Tema
+Este projeto representa o trabalho final do Bootcamp de Business Intelligence, focado na construção de um **Pipeline ETL** completo (Extração, Transformação e Carregamento) para analisar o catálogo da Netflix.
 
-O estudo é relevante para:
-* Entendimento de estratégias de conteúdo
-* Análises de mercado no setor de streaming
-* Insights sobre engajamento, oferta e tendências
-* Suporte a decisões estratégicas de catálogo
+---
 
-# Base de Dados
+### Sobre o projeto
 
-* Fonte: Kaggle
-* Dataset: Netflix Movies and TV Shows (netflix-shows), por shivamb
-* Formato: .csv
-* Tamanho: 3.4 MB
-* Linhas: 8.807
-* Colunas (12):
- show_id, type, title, director, cast, country,
-date_added, release_year, rating, duration,
-listed_in, description
+O objetivo principal foi transformar dados brutos da Netflix em **insights estratégicos** sobre o perfil de conteúdo e o crescimento anual de lançamentos da plataforma. O resultado final é um dashboard analítico no **Power BI**, embasado em dados limpos e estruturados.
 
-# Perguntas Norteadoras
+#### **Objetivos da análise**
 
-* Distribuição Filmes vs Séries ao longo dos anos
-* Gêneros mais frequentes e sua distribuição por país
-* Quais gêneros são mais adicionados?
-* Relação País x Ano de Adição
-* Nichos de maior engajamento
-* Crescimento anual entre 2016 e 2021
+* Perfil de conteúdo da plataforma (Filmes vs. Séries).
+* **Crescimento anual de lançamentos** (2016 a 2021).
+* Tendências de **gêneros**, tipos e países de origem.
+* Comportamento do catálogo e identificação de nichos.
 
-# Pipeline ETL
+#### **Relevância**
 
-1. EXTRAÇÃO
-Realizada a partir do arquivo .csv no Kaggle.
+Este estudo é fundamental para entender as **estratégias de conteúdo** da Netflix, fornecer análises de mercado no setor de streaming e suportar **decisões estratégicas** sobre a oferta e o engajamento do catálogo.
 
-Atividades:
-* Importação das bibliotecas
-* Carregamento no Google Colab
-* Análise de tipos
-* Verificação de valores nulos
-* Estatísticas iniciais
+#### **Membros**
 
-2. TRANSFORMAÇÃO
-Transformações aplicadas:
-* Limpeza de dados
-* Padronização de colunas
-* Tratamento de nulos
-* Conversão de formatos
-* Criação da camada gold
-* Criação de tabelas normalizadas
-* Preparação dos dados para consumo no BI
+* Alessandra Machado
+* Aline de Oliveira
+* Caroline Cruz
+* Clara Maria
+* Dayane Lurdes
+* Elaine Castro
+* Maria Elacide
+* Tandara Jesus
 
-3. CARREGAMENTO
-* Carregamento no SQLite
-* Visualização e manipulação via DBeaver
-* Exportação dos dados tratados para o Power BI
+---
 
-# Dashboard – Principais Visualizações
+### 📊 Base de Dados
 
-Criado no Power BI com base na camada gold.
-nclui:
+| Detalhe | Informação |
+| :--- | :--- |
+| **Fonte** | Kaggle - Netflix Movies and TV Shows (shivamb) |
+| **Formato** | CSV |
+| **Tamanho** | 3.4 MB |
+| **Registros** | 8.807 linhas |
+| **Colunas** | 12 (show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description) |
 
-* Gráfico de linha: lançamentos por ano
-* Gráfico de barras: país × ano
-* Cards resumidos:
-* Total de títulos
-Filmes vs Séries
-Títulos por ano
-* Gêneros mais frequentes
-* Distribuição geográfica
-* Análises gerais do catálogo
+#### **Perguntas Norteadoras**
 
-# Insights Gerais
+* Como se distribui a adição de **Filmes vs. Séries** ao longo dos anos?
+* Quais são os **gêneros mais adicionados** e como se distribuem por país?
+* Qual a **relação País x Ano** de Adição no catálogo?
+* Quais são os **nichos de maior engajamento** explorados?
+* Qual foi o **crescimento anual** de lançamentos entre 2016 e 2021?
 
-Principais conclusões:
-* Crescimento consistente de lançamentos entre 2016–2020, seguido de queda em 2021
-* Catálogo majoritariamente composto por filmes (70%)
-* Gêneros mais adicionados: Drama, Comédia, Ação
-* EUA lidera em número de títulos; Índia fica em segundo
-* Expansão internacional e foco em nichos de engajamento (Crime, Anime, Séries)
-* Entre 2019–2021, a maioria dos títulos adicionados são retrocatálogo (10+ anos)
-* Estratégia observada: conteúdo antigo + gêneros populares para manter volume e variedade
+---
 
-# Tecnologias Utilizadas
+### Pipeline ETL (Extração, Transformação e Carregamento)
 
-* Python (Google Colab)
-* Pandas
-* SQLite
-* DBeaver
-* Power BI
-* Kaggle
+#### 1. EXTRAÇÃO (Python / Google Colab)
 
-# Conclusão
+* Importação e carregamento do dataset CSV.
+* Análise inicial de tipos de dados, valores nulos e estatísticas descritivas.
 
-Este projeto entrega um pipeline ETL completo, da extração à visualização. Permite entender profundamente como a Netflix estrutura e expande seu catálogo ao longo dos anos.
+#### 2. TRANSFORMAÇÃO (Python / Pandas)
 
-# Como Executar o Projeto
+* **Limpeza de Dados:** Tratamento de valores nulos e padronização de formatos.
+* **Modelagem:** Conversão de formatos e criação de tabelas normalizadas.
+* **Camada Gold:** Preparação final dos dados (limpos e estruturados) para consumo no BI.
+
+#### 3. CARREGAMENTO (SQLite / Power BI)
+
+* Carregamento da **camada gold** em um banco de dados **SQLite**.
+* Exportação dos dados tratados para o **Power BI**.
+
+---
+
+### Dashboard e Insights Principais
+
+O dashboard no Power BI permite uma visualização dinâmica e clara dos resultados obtidos com o tratamento acima.
+
+#### 🖼️ **Principais Visualizações**
+
+* **Gráficos de linhas:** Crescimento de lançamentos por ano.
+* **Gráficos de barras:** Relação país de vs. ano de adição ao catálogo.
+* **Cards de resumo:** Total de títulos, proporção filmes vs. séries.
+* **Distribuição:** Gêneros mais frequentes e distribuição geográfica.
+
+#### ✅ **Conclusões Chave (2016 – 2021)**
+
+* **Conteúdo:** Catálogo majoritariamente composto por **filmes (70%)**.
+* **Crescimento:** **Crescimento consistente** de lançamentos de 2016 a 2020, com uma queda em 2021.
+* **Tendências:** Gêneros mais adicionados: **drma, comédia e ação**.
+* **Geografia:** **EUA** lidera o volume de títulos, seguido pela **Índia**.
+* **Estratégia:** Foco em conteúdo antigo (**retrocatálogo** - 10+ anos) e gêneros populares.
+
+---
+
+### Tecnologias Utilizadas
+
+| Categoria | Ferramentas |
+| :--- | :--- |
+| **Linguagem** | Python |
+| **Manipulação de Dados** | Pandas |
+| **Banco de Dados** | SQLite |
+| **Gerenciamento de DB** | DBeaver |
+| **Visualização** | Power BI |
+| **Fonte de Dados** | Kaggle |
+
+---
+
+### 🛠️ Como executar este projeto
 
 ## 1. Clonar o Repositório
+
 git clone https://github.com/seu-usuario/pipeline_ETL_projeto_final_ENIAC.git
 cd pipeline_ETL_projeto_final_ENIAC
 
-## 2. Preparar o Ambiente
+## 2. Preparar o ambiente
+
 Certifique-se de ter instalado:
 * Python 3.8
 * Jupyter Notebook ou Google Colab
@@ -125,62 +131,50 @@ Certifique-se de ter instalado:
 * DBeaver (opcional)
 * Power BI Desktop
 
-## 3. Instalar Dependências
-Caso utilize localmente, execute:
-pip install -r requirements.txt
+## 3. Instalar dependências
 
-Se não existir o arquivo, você pode instalar manualmente:
-pip install pandas numpy matplotlib sqlite3
+Caso utilize localmente, execute:pip install -r requirements.txt
+Se não existir o arquivo, você pode instalar manualmente: pip install pandas numpy matplotlib sqlite3
 
 ## 4. Executar o Notebook de ETL
 etl/notebook_ETL.ipynb
 
 Você pode rodá-lo em:
 ## Google Colab (recomendado)
-
 1. Acesse o Colab
-2. Faça upload do noteboo
+2. Faça upload do notebook
 3. Faça upload do arquivo CSV na pasta /content
 4. Execute todas as células na ordem
 
 ## Localmente com Jupyter
 jupyter notebook etl/notebook_ETL.ipynb
-
 Execute célula por célula para:
 * Fazer a extração dos dados
 * Aplicar as transformações
 * Gerar a camada gold
 * Criar o arquivo final para o banco SQLite
 
-## 5. Executar o Banco de Dados
-
-Após a execução do ETL, o arquivo SQLite será criado em:
-database/netflix.db
-
+## 5. Executar o banco de dados
+Após a execução do ETL, o arquivo SQLite será criado em: database/netflix.db
 Você pode abrir o banco com:
 
-DBeaver
+**DBeaver**
 1. Criar nova conexão SQLite
 2. Selecionar netflix.db
 3. Explorar as tabelas gold criadas
 
-SQLite CLI
+**SQLite CLI**
 sqlite3 netflix.db
 
 ## 6. Abrir o Dashboard no Power BI
-
-O relatório está em:
-dashboard/Netflix.pbix
-
+O relatório está em: dashboard/Netflix.pbix
 Para abrir:
 1. Instale o Power BI Deskto
 2.  Abra o arquivo Netflix.pbix
 3. Certifique-se que a conexão com o banco ou CSV tratado está correta
 4. Atualize os dados clicando em Atualizar
 
-
-## 7. Reproduzir o Pipeline Completo
-
+## 7. Reproduzir o pipeline completo
 Resumo do fluxo:
 1. Extrair o CSV original
 2. Transformar no Python (Colab ou Jupyter)
@@ -188,4 +182,11 @@ Resumo do fluxo:
 4. Carregar no SQLite
 5. Visualizar no Power BI
 
+---
 
+📄 Licença
+Este projeto é de código aberto e está sob a licença MIT.
+
+📧 Contato
+Alessandra Machado - @alessandramdsz
+Link do projeto: [https://github.com/alessandramdsz/pipeline_ETL_projeto_final_ENIAC]
