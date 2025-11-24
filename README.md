@@ -54,11 +54,11 @@ Este estudo é fundamental para entender as **estratégias de conteúdo** da Net
 
 #### **Perguntas Norteadoras**
 
-* Como se distribui a adição de **Filmes vs. Séries** ao longo dos anos?
-* Quais são os **gêneros mais adicionados** e como se distribuem por país?
-* Qual a **relação País x Ano** de Adição no catálogo?
-* Quais são os **nichos de maior engajamento** explorados?
-* Qual foi o **crescimento anual** de lançamentos entre 2016 e 2021?
+* Como se distribui a adição de Filmes vs. Séries ao longo dos anos?
+* Quais são os gêneros mais adicionados e como se distribuem por país?
+* Qual a relação País x Ano de Adição no catálogo?
+* Quais são os nichos de maior engajamento explorados?
+* Qual foi o crescimento anual de lançamentos entre 2016 e 2021?
 
 ---
 
@@ -97,7 +97,7 @@ O dashboard no Power BI permite uma visualização dinâmica e clara dos resulta
 
 * **Conteúdo:** Catálogo majoritariamente composto por **filmes (70%)**.
 * **Crescimento:** **Crescimento consistente** de lançamentos de 2016 a 2020, com uma queda em 2021.
-* **Tendências:** Gêneros mais adicionados: **drma, comédia e ação**.
+* **Tendências:** Gêneros mais adicionados: **drama, comédia e ação**.
 * **Geografia:** **EUA** lidera o volume de títulos, seguido pela **Índia**.
 * **Estratégia:** Foco em conteúdo antigo (**retrocatálogo** - 10+ anos) e gêneros populares.
 
