@@ -97,7 +97,7 @@ O dashboard no Power BI permite uma visualização dinâmica e clara dos resulta
 
 * **Conteúdo:** Catálogo majoritariamente composto por **filmes (70%)**.
 * **Crescimento:** **Crescimento consistente** de lançamentos de 2016 a 2020, com uma queda em 2021.
-* **Tendências:** Gêneros mais adicionados: **drama, comédia e ação**.
+* **Tendências:** Gêneros mais adicionados: **Drama, comédia e ação**.
 * **Geografia:** **EUA** lidera o volume de títulos, seguido pela **Índia**.
 * **Estratégia:** Foco em conteúdo antigo (**retrocatálogo** - 10+ anos) e gêneros populares.
 
