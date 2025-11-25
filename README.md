@@ -170,7 +170,7 @@ Você pode abrir o banco com:
 3. Explorar as tabelas gold criadas
 
 **SQLite CLI**
-sqlite3 netflix.db
+- sqlite3 netflix.db
 
 ## 6. Abrir o Dashboard no Power BI
 O relatório está em: dashboard/Netflix.pbix
