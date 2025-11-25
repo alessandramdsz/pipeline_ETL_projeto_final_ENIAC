@@ -193,6 +193,15 @@ Resumo do fluxo:
 
 ---
 
+## Explicando os arquivos do repositório
+1. Consolidado_Apresentação_Final.pptx.pdf: É um PDF completo explicando o projeto em forma de relatório.
+2. Collab_Tratamento_Netflix.ipynb: É o ambiente Google Collab com as execuções. Você também pode acessar neste link: https://colab.research.google.com/drive/1oWVQSI7Dt01RaCvzovo8kzl03x-4vdqs
+3. Netflix_Dashboard_BI.pbix: É o arquivo Power BI
+4. README.md: Esta leitura, como executar o projeto
+5. collab_tratamento_netflix.py: É o arquivo final do código gerado no Collab, na linguagem python
+
+---
+
 📄 Licença
 Este projeto é de código aberto e está sob a licença MIT.
 
