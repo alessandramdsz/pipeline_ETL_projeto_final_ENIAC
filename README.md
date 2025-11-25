@@ -42,7 +42,7 @@ Este estudo é fundamental para entender as **estratégias de conteúdo** da Net
 
 ---
 
-### 📊 Base de Dados
+### 📊 Base de dados
 
 | Detalhe | Informação |
 | :--- | :--- |
@@ -142,14 +142,15 @@ pip install -r requirements.txt
 Se não existir o arquivo, você pode instalar manualmente: pip install pandas numpy matplotlib sqlite3
 
 ## 4. Executar o Notebook de ETL
+
 etl/notebook_ETL.ipynb
 
 Você pode rodá-lo em:
 
 ## Google Colab (recomendado)
 1. Acesse o Colab
-2. Faça upload do notebook
-3. Faça upload do arquivo CSV na pasta /content
+2. Faça upload do notebook disponível neste repositório
+3. Faça upload do arquivo CSV na pasta/content
 4. Execute todas as células na ordem
 
 ## Localmente com Jupyter
@@ -174,13 +175,15 @@ Você pode abrir o banco com:
 
 ## 6. Abrir o Dashboard no Power BI
 O relatório está em: dashboard/Netflix.pbix
+
 Para abrir:
-1. Instale o Power BI Deskto
-2.  Abra o arquivo Netflix.pbix
+1. Instale o Power BI Desktop
+2. Abra o arquivo Netflix.pbix
 3. Certifique-se que a conexão com o banco ou CSV tratado está correta
 4. Atualize os dados clicando em Atualizar
 
 ## 7. Reproduzir o pipeline completo
+
 Resumo do fluxo:
 1. Extrair o CSV original
 2. Transformar no Python (Colab ou Jupyter)
