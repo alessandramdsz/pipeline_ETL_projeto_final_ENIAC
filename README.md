@@ -32,7 +32,6 @@ Este estudo é fundamental para entender as **estratégias de conteúdo** da Net
 #### **Membros**
 
 * Alessandra Machado
-* Aline de Oliveira
 * Caroline Cruz
 * Clara Maria
 * Dayane Lurdes
