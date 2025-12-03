@@ -143,7 +143,6 @@ Você pode rodá-lo em:
 2. Faça upload do notebook disponível neste repositório
 3. Faça upload do arquivo CSV na pasta/content
 4. Execute todas as células na ordem
-O Colab é o ambiente de desenvolvimento principal do projeto (como indicado pelos arquivos).
 
 ## Localmente com Jupyter
 jupyter notebook etl/notebook_ETL.ipynb
