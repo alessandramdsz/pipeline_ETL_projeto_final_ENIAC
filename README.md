@@ -1,9 +1,9 @@
-# 🎬 Projeto final de Bootcamp BI: Uma análise do perfil dos conteúdos da renomada Netflix - Data Pipeline (ETL)
+# 🎬📈 Projeto final de Bootcamp BI: Uma análise do perfil dos conteúdos da renomada Netflix - Data Pipeline (ETL)
 
 [![Status](https://img.shields.io/badge/Status-Completo-green.svg)]()
 
 > [!WARNING]
-> ⚠️ **Antes de iniciar a execução, você precisa baixar os arquivos que constam nesse repositório, junto ao read.me**
+> ⚠️ **Pré-requisito:** Antes de iniciar a execução, você precisa baixar os arquivos que constam nesse repositório, junto ao read.me**
 
 ### 🚀 `pipeline_ETL_projeto_final_ENIAC`
 
@@ -72,11 +72,11 @@ Este estudo é fundamental para entender as **estratégias de conteúdo** da Net
 
 * **Limpeza de Dados:** Tratamento de valores nulos e padronização de formatos.
 * **Modelagem:** Conversão de formatos e criação de tabelas normalizadas.
-* **Camada Gold:** Preparação final dos dados (limpos e estruturados) para consumo no BI.
+* **Camada Gold:** Preparação final dos dados (limpos, estruturados e modelados dimensionalmente) para consumo no BI
 
 #### 3. CARREGAMENTO (SQLite / Power BI)
 
-* Carregamento da **camada gold** em um banco de dados **SQLite**.
+* Carregamento da **camada gold** em um banco de dados **SQLite** como Data Mart de prototipagem.
 * Exportação dos dados tratados para o **Power BI**.
 
 ---
@@ -126,19 +126,11 @@ cd pipeline_ETL_projeto_final_ENIAC
 ```
 ## 2. Preparar o ambiente
 
-Certifique-se de ter instalado:
-* Python 3.8
-* Jupyter Notebook ou Google Colab
-* SQLite3
-* DBeaver (opcional)
-* Power BI Desktop
+Certifique-se de ter instalado:Python 3.8+, Jupyter Notebook / Google Colab, SQLite3, Power BI Desktop, DBeaver (opcional)
 
 ## 3. Instalar dependências
 
-Caso utilize localmente, execute:
-pip install -r requirements.txt
-
-Se não existir o arquivo, você pode instalar manualmente: pip install pandas numpy matplotlib sqlite3
+Mantenha o comando pip install -r requirements.txt. Na instrução manual, inclua os pacotes mais prováveis: pip install pandas numpy sqlite3 matplotlib.
 
 ## 4. Executar o Notebook de ETL
 
@@ -151,6 +143,7 @@ Você pode rodá-lo em:
 2. Faça upload do notebook disponível neste repositório
 3. Faça upload do arquivo CSV na pasta/content
 4. Execute todas as células na ordem
+O Colab é o ambiente de desenvolvimento principal do projeto (como indicado pelos arquivos).
 
 ## Localmente com Jupyter
 jupyter notebook etl/notebook_ETL.ipynb
@@ -206,4 +199,4 @@ Este projeto é de código aberto e está sob a licença MIT.
 
 📧 Contato
 - Alessandra Machado - @alessandramdsz
-- Link do projeto: [https://github.com/alessandramdsz/pipeline_ETL_projeto_final_ENIAC]
+**- Link do projeto: [https://github.com/alessandramdsz/pipeline_ETL_projeto_final_ENIAC]**
