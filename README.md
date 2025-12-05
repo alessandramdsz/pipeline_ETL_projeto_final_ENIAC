@@ -3,7 +3,7 @@
 [![Status](https://img.shields.io/badge/Status-Completo-green.svg)]()
 
 > [!WARNING]
-> ⚠️ **Pré-requisito:** Antes de iniciar a execução, você precisa baixar os arquivos que constam nesse repositório, junto ao read.me**
+> ⚠️ **Pré-requisito:** Antes de iniciar a execução, você precisa baixar os arquivos que constam nesse repositório, junto ao read.me
 
 ### 🚀 `pipeline_ETL_projeto_final_ENIAC`
 
